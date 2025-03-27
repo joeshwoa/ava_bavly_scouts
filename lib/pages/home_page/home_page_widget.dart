@@ -93,7 +93,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
           .from('Version')
           .select('version');
 
-      if(versionResponse[0]['version'] != '1.0.0') {
+      if(versionResponse[0]['version'] != '1.0.0' && !kIsWeb) {
         if(mounted) {
           showOkAlertDialog(context: context,
               message: 'New Version Available Please Update The App'
