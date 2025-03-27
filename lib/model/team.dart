@@ -1,3 +1,4 @@
+/*
 // To parse this JSON data, do
 //
 //     final teams = teamsFromJson(jsonString);
@@ -39,3 +40,4 @@ class Team {
     "points": points,
   };
 }
+*/

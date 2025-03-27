@@ -4,9 +4,9 @@ class Assets {
 
   static const String assetsComindeLogo = 'assets/cominde_logo.png';
   static const String assetsIcLauncher = 'assets/ic_launcher.png';
+  static const String assetsIcLauncherBackground = 'assets/ic_launcher_background.png';
   static const String assetsIcLauncherForeground = 'assets/ic_launcher_foreground.png';
   static const String assetsIcLauncherMonochrome = 'assets/ic_launcher_monochrome.png';
-  static const String assetsVerifiedLogo = 'assets/verified_logo.png';
   static const String avaBavlyScouts = '.env';
 
 }
